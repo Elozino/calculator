@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView } from 'react-native';
 import Keyboard from './src/components/Keyboard';
 import ThemeContext from './src/context/ThemeContext';
@@ -9,7 +8,6 @@ export default function App() {
     <ThemeContext>
       <SafeAreaView style={[globalStyles.container]}>
         <Keyboard />
-        <StatusBar style="auto" />
       </SafeAreaView>
     </ThemeContext>
   );

@@ -1,3 +1,4 @@
+import { StatusBar } from 'expo-status-bar';
 import React, { createContext, useContext } from 'react'
 import { useColorScheme } from 'react-native';
 
@@ -18,6 +19,7 @@ const ThemeContext = ({ children }: {
       theme: colorScheme ?? 'light'
     }}>
       {children}
+      <StatusBar style={colorScheme === 'light' ? "light" : "dark"} />
     </Context.Provider>
   )
 }
