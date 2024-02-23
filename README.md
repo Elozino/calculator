@@ -7,6 +7,6 @@
 - React Native
 - Typescript
 
-PS: Project APK can be found in the build folder
+[Download APK](https://drive.google.com/drive/folders/1VxXskN0YeOSiVdQyVSlP4-HEUTVpqNhf?usp=sharing)
 
 
